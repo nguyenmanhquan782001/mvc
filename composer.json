@@ -1,0 +1,19 @@
+{
+    "name": "manhquan/mvc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Manh Quan",
+            "email": "manhquana5yl@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^7.30",
+        "illuminate/events": "^7.30",
+        "jenssegers/blade": "^1.4",
+        "phroute/phroute": "^2.1"
+    }, 
+    "autoload": {
+        "psr-4": {"App\\": "app/"}
+    }
+}
